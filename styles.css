@@ -9,7 +9,7 @@ body {
     grid-gap: 60px;
 }
 
-wisegoat-advice {
+.wisegoat-advice {
     display: flex;
     flex-flow: column;
 }
