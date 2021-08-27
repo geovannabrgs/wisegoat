@@ -5,4 +5,4 @@
   <p align="center">
      Site gerador de conselhos e imagens de bodes
 
-    <a href="https://github.com/devchallenge-io/wisegoat">Desafio da DevChallenge</a>
+    <a href="https://github.com/devchallenge-io/wisegoat">Desafio da DevChallenge</a></p>
