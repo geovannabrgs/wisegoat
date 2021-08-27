@@ -12,7 +12,6 @@ body {
 .wisegoat-advice {
     display: grid;
     grid-template-columns: 1fr;
-    align-items: center;
 }
 
 .wisegoat {
@@ -43,17 +42,12 @@ body {
     font-weight: 600;
 }
 
-.img-bode {
-    display: grid;
-    grid-template-columns: 2fr;
-}
-
 img {
     height: 417px;
     margin-bottom: 63px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 250px) and (max-width: 480px) {
     .layout {
         display: flex;
         flex-flow: column;
@@ -61,7 +55,6 @@ img {
     }
     .wisegoat {
         font-size: 20px;
-        margin-top: 5px;
     }
     .wise {
         color: #BAA193;
@@ -72,11 +65,11 @@ img {
     .ask-for-advice {
         background-color: #72005F;
         color: #ffffff;
-        border-radius: 10px;
+        border-radius: 15px;
         border: none;
-        padding: 12px 22px;
+        padding: 15px 45px;
     }
     img {
-        height: 220px;
+        height: 210px;
     }
 }
