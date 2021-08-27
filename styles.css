@@ -47,7 +47,7 @@ img {
     margin-bottom: 63px;
 }
 
-@media screen and (min-width: 250px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .layout {
         display: flex;
         flex-flow: column;
