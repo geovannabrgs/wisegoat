@@ -17,7 +17,11 @@ body {
 
 .wisegoat {
     line-height: 0%;
-    font-size: 60px;
+}
+
+.wisegoat2 {
+    line-height: 0%;
+    padding-left: 30px;
 }
 
 .wise {
@@ -26,9 +30,20 @@ body {
     opacity: 86%;
 }
 
+.wise2 {
+    color: #BAA193;
+    font-size: 20px;
+    opacity: 86%;
+}
+
 .goat {
     color: #72005F;
     font-size: 110px;
+}
+
+.goat2 {
+    color: #72005F;
+    font-size: 50px;
 }
 
 .ask-for-advice {
@@ -41,6 +56,11 @@ body {
     padding: 18px 46px;
     font-size: 25px;
     font-weight: 600;
+}
+
+.ask-text {
+    text-decoration: none;
+    color: white;
 }
 
 img {
