@@ -1,118 +1,142 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-.layout {
-    display: flex;
-    align-items: center;
-    grid-gap: 108px;
-    justify-content: center;
-}
-
-.layout2 {
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-}
-
-.wisegoat-advice {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.wisegoat {
-    line-height: 0%;
-}
-
-.wisegoat2 {
-    line-height: 0%;
-    padding-left: 30px;
-}
-
-.wise {
-    color: #BAA193;
-    font-size: 44px;
-    opacity: 86%;
-}
-
-.wise2 {
-    color: #BAA193;
-    font-size: 20px;
-    opacity: 86%;
-}
-
-.goat {
-    color: #72005F;
-    font-size: 110px;
-}
-
-.goat2 {
-    color: #72005F;
-    font-size: 50px;
-}
-
-.ask-for-advice {
-    margin-top: 30px;
-    background-color: #72005F;
-    color: #ffffff;
-    border-radius: 15px;
-    align-items: center;
-    border: none;
-    padding: 18px 46px;
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.ask-text {
-    text-decoration: none;
-    color: white;
-}
-
-img {
-    height: 417px;
-    margin-bottom: 63px;
-}
-
-.sentence-random {
-    margin-top: 170px;
-    background: #FAE8E0;
-    padding: 45px;
-}
-
-.sentence {
-    font-size: 38px;
-    color: #72005F;
-}
-
-.author {
-    font-size: 30px;
-    opacity: 45%;
-    line-height: 0%;
-}
-
-@media screen and (max-width: 480px) {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
     .layout {
         display: flex;
-        flex-flow: column;
-        -ms-flex-align: center;
+        align-items: center;
+        grid-gap: 108px;
+        justify-content: center;
     }
+    
+    .layout2 {
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+    }
+    
+    .wisegoat-advice {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
     .wisegoat {
-        font-size: 20px;
+        line-height: 0%;
     }
+    
+    .wisegoat2 {
+        line-height: 0%;
+        margin-left: 30px;
+    }
+    
     .wise {
         color: #BAA193;
+        font-size: 44px;
+        opacity: 86%;
     }
+    
+    .wise2 {
+        color: #BAA193;
+        font-size: 20px;
+        opacity: 86%;
+    }
+    
     .goat {
         color: #72005F;
+        font-size: 110px;
     }
+    
+    .goat2 {
+        color: #72005F;
+        font-size: 50px;
+    }
+    
     .ask-for-advice {
+        margin-top: 30px;
         background-color: #72005F;
         color: #ffffff;
         border-radius: 15px;
+        align-items: center;
         border: none;
-        padding: 15px 45px;
+        padding: 18px 46px;
+        font-size: 25px;
+        font-weight: 600;
     }
+    
+    .ask-text {
+        text-decoration: none;
+        color: white;
+    }
+    
     img {
-        height: 210px;
+        height: 417px;
+        margin-bottom: 63px;
     }
-}
+    
+    .sentence-random {
+        margin-top: 140px;
+        background: #FAE8E0;
+        padding: 45px;
+        width: 800px;
+    }
+    
+    .sentence {
+        font-size: 38px;
+        color: #72005F;
+    }
+    
+    .author {
+        font-size: 30px;
+        opacity: 45%;
+        line-height: 0%;
+    }
+    
+    @media screen and (max-width: 480px) {
+        .layout {
+            display: flex;
+            flex-flow: column;
+            -ms-flex-align: center;
+        }
+        .layout2 {
+            display: grid;
+            grid-template-columns: auto;
+        }
+        .wisegoat {
+            font-size: 20px;
+        }
+        .wisegoat2 {
+            line-height: 0%;
+            text-align: center;
+            margin-left: 0%;
+        }
+        .wise {
+            color: #BAA193;
+        }
+        .goat {
+            color: #72005F;
+        }
+        .ask-for-advice {
+            background-color: #72005F;
+            color: #ffffff;
+            border-radius: 15px;
+            border: none;
+            padding: 15px 45px;
+        }
+        img {
+            height: 210px;
+        }
+        .sentence-random {
+            background: #FAE8E0;
+            margin-top: 100px;
+            width: auto;
+        }
+        .sentence {
+            font-size: 38px;
+            color: #72005F;
+        }
+        .author {
+            font-size: 30px;
+            opacity: 45%;
+            line-height: 0%;
+        }
+    }
