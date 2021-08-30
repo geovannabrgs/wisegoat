@@ -10,6 +10,11 @@ body {
     justify-content: center;
 }
 
+.layout2 {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
 .wisegoat-advice {
     display: grid;
     grid-template-columns: 1fr;
@@ -66,6 +71,23 @@ body {
 img {
     height: 417px;
     margin-bottom: 63px;
+}
+
+.sentence-random {
+    margin-top: 170px;
+    background: #FAE8E0;
+    padding: 45px;
+}
+
+.sentence {
+    font-size: 38px;
+    color: #72005F;
+}
+
+.author {
+    font-size: 30px;
+    opacity: 45%;
+    line-height: 0%;
 }
 
 @media screen and (max-width: 480px) {
